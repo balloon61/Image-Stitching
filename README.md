@@ -1,8 +1,8 @@
 # Image-Stitching
 
-Image Stitching
+## Image Stitching
 
-
+```
 a. The first depth of this algorithm is input two images which are supposed to stitch. 
 
 b. Use in-built function knnMatch() to find the matching points
@@ -14,7 +14,7 @@ d. Use the good match points to compute the homography. Reason: Using the homogr
 e. Use in-built function Warp perseptive to find the warp image. Reason: Makes two image looks like it from the same view.
 
 f. Stitch two images into one, combine two image together.
-
+```
 
 
 
